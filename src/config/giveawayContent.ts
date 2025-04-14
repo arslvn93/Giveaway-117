@@ -1,30 +1,28 @@
-
 // This file centralizes all editable content for the giveaway page
 
 // Prize section
 export const prizeImages = [
-  "https://images.unsplash.com/photo-1552767059-ce182ead6c1b?q=80&w=1000", // Main cheese board
-  "https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=500", // Cheese assortment
-  "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=500", // Olives and cheese
+  "https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwyfHxjYWZlfGVufDB8fHx8MTc0NDY2MTQ3NXww&ixlib=rb-4.0.3&q=80&w=1080",
+  "https://images.unsplash.com/photo-1481833761820-0509d3217039?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHw2fHxjYWZlfGVufDB8fHx8MTc0NDY2MTQ3NXww&ixlib=rb-4.0.3&q=80&w=1080", 
+  "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwxMHx8Y2FmZXxlbnwwfHx8fDE3NDQ2NjE0NzV8MA&ixlib=rb-4.0.3&q=80&w=1080", 
 ];
-
 export const prizeContent = {
-  title: "Gourmet Cheese Board Gift Basket",
-  description: "This curated gift basket is perfect for an at-home charcuterie night. Featuring a handcrafted wooden cheese board, assortment of fine cheeses, olives, sea salt pretzels, chocolate bark, and a premium knife set—everything you need for a delicious evening with your loved ones.",
+  title: "Win a $150 Gift Card to Cafe Landwer!",
+  description: "Enjoy a delightful dining experience at Cafe Landwer with our exclusive giveaway entry. This $150 gift card offers you the perfect opportunity to savor delectable dishes at one of the city's most beloved eateries. Whether you're a foodie eager to explore new culinary delights or planning a special night out with family or friends, this prize is sure to create memorable moments.",
   features: [
-    "Assorted gourmet cheeses & olives - expertly selected and paired for rich, balanced flavor",
-    "Sea salt pretzels & chocolate bark - the perfect mix of crunchy, salty, and sweet indulgence",
-    "Handcrafted wooden cheese tray with premium knife set for effortless serving",
-    "Free delivery directly to your door in Vaughan",
-    "Perfect for a cozy night in with family and friends",
+    "Delight in authentic cuisine at a local favorite",
+    "Perfect for a romantic dinner or a family outing",
+    "Experience the vibrant ambiance and exceptional service",
+    "Receive a $150 gift card to indulge in your culinary cravings",
+    "Easy entry with just a scan of our QR code from the 'Just Sold' mailer",
   ],
-  value: "$175",
+  value: "$150",
 };
 
 // Header section
 export const headerContent = {
-  title: "Win a Curated Cheese Board Gift Basket!",
-  description: "Perfect for Vaughan families looking for a cozy night in! Enter for a chance to win our exclusive cheese board package valued at $175. No purchase necessary.",
+  title: "Win a $150 Gift Card to Cafe Landwer!",
+  description: "Treat yourself to an exquisite dining experience at Cafe Landwer. Enter now for a chance to win a $150 gift card. No purchase necessary.",
   ctaText: "Enter Now",
   heroImage: prizeImages[0],
   secondaryImage: prizeImages[1], // Add secondary image for the header
@@ -32,7 +30,7 @@ export const headerContent = {
 
 // Navigation section
 export const navigationContent = {
-  title: "Cheese Board Giveaway",
+  title: "Cafe Landwer Giveaway",
   links: [
     { name: 'Home', href: '#' },
     { name: 'Prize Details', href: '#prize' },
@@ -49,8 +47,8 @@ export const howToEnterContent = {
   steps: [
     {
       icon: "Mail",
-      title: "Fill Out the Form",
-      description: "Enter your email address and name in the form and submit it."
+      title: "Scan & Fill Out the Form",
+      description: "Scan the QR code on our 'Just Sold' mailer, then enter your name and email address in the form and submit it."
     },
     {
       icon: "Share2",
@@ -76,8 +74,8 @@ export const howToEnterContent = {
     },
     { 
       icon: "Gift", 
-      title: "Premium Prize", 
-      desc: "Valued at $175" 
+      title: "Exclusive Prize", 
+      desc: "Gift card valued at $150" 
     }
   ],
   formLabels: {
@@ -105,11 +103,11 @@ export const rulesContent = {
   rules: [
     {
       question: "Who is eligible to enter?",
-      answer: "Anyone 18 years or older residing in the Vaughan area can enter this giveaway.",
+      answer: "Anyone 18 years or older residing in the designated service area can enter this giveaway.",
     },
     {
       question: "How long does the giveaway run?",
-      answer: "This giveaway runs until February 2nd, 2025, as indicated by the countdown timer.",
+      answer: "This giveaway runs until April 22, 2025, as indicated by the countdown timer.",
     },
     {
       question: "How will the winner be selected?",
@@ -143,10 +141,10 @@ export const rulesContent = {
 // Contact section
 export const contactContent = {
   title: "Get In Touch",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  email: "info@theskygroup.ca",
+  phone: "289-210-5250",
   brokerage: {
-    name: "Toronto Sports Entertainment",
+    name: "The Sky Group",
     address: "123 Arena Blvd, Toronto"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
@@ -156,24 +154,24 @@ export const contactContent = {
 
 // Footer section
 export const footerContent = {
-  aboutText: "The Raptors Giveaway specializes in offering exclusive prizes to our dedicated fans.",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  aboutText: "The Sky Group Giveaway specializes in offering exclusive prizes to our dedicated community members.",
+  email: "info@theskygroup.ca",
+  phone: "289-210-5250",
   quickLinks: ["Home", "About", "Listings", "Contact", "Privacy Policy"],
   newsletterText: "Subscribe to our newsletter for the latest updates on giveaways and exclusive offers.",
   brokerage: {
-    name: "Toronto Sports Entertainment",
+    name: "The Sky Group",
     address: "123 Arena Blvd, Toronto"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
   copyright: "Copyright 2025. All rights reserved",
-  company: "The Sky Group Real Estate",
+  company: "The Sky Group",
   privacyPolicyText: "Privacy Policy"
 };
 
 // Countdown
 export const countdownContent = {
-  endDate: new Date("February 2, 2025") 
+  endDate: new Date("April 22, 2025")
 };
 
 // Color scheme configuration for the entire giveaway
